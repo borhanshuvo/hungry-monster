@@ -1,0 +1,39 @@
+.logo-image{
+    width: 100px;
+}
+.btn-color{
+    background-color: tomato;
+    color: white;
+}
+.form-control:focus{
+    border-color: rgb(48, 209, 88);
+    box-shadow: 0 0 0 .10rem rgb(48, 209, 88);
+}
+
+#searchResult {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+h2, h3 {
+    color: rgb(48, 209, 88);
+    font-weight: bold;
+}
+
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.col-3 {
+    margin-bottom: 40px;
+}
+
+.mealName {
+    text-align: center;
+}
+
+.form-check-input:checked {
+    background-color: tomato;
+    border-color: rgb(52, 243, 100);
+}
